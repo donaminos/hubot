@@ -15,3 +15,6 @@ command -v hubot &>/dev/null || {
 
 }
 
+dpkg -s libicu-dev &>/dev/null || {
+	apt-get install libexpat1-dev	
+}
