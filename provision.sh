@@ -11,7 +11,7 @@ dpkg -s npm &>/dev/null || {
 
 command -v hubot &>/dev/null || {
 
- npm install -g yo generator-hubot
+ npm install -g yo generator-hubot coffee-script
 
 }
 
